@@ -71,9 +71,30 @@ img {
 }
 small {
   text-transform: uppercase;
+  /* lowercase全小寫 uppercase全大寫 capitalize首字大寫 */
   margin-left: 1.2rem;
   /* 斜體字 */
   font-style: italic;
   font-size: 2rem;
   color: #999;
+}
+.alert1 {
+  border: dashed 2px #999;
+}
+.alert1 p {
+  color: black;
+  font-size: 16px;
+  margin: 0;
+}
+.img-inner {
+  display: flex;
+  justify-content: center;
+}
+.img-resp {
+  width: 25%;
+  height: auto;
+  border: solid 1px #ddd;
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
 }
