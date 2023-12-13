@@ -23,7 +23,7 @@ body {
 }
 h1 {
   color: chocolate;
-  font-size: 40px;
+  font-size: 70px;
   font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
 }
 
@@ -58,7 +58,7 @@ p {
   text-align: justify;
 }
 div {
-  width: 1500px;
+  width: 1380px;
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(255, 250, 243, 0.405);
@@ -75,7 +75,7 @@ small {
   margin-left: 1.2rem;
   /* 斜體字 */
   font-style: italic;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #999;
 }
 .alert1 {
@@ -97,4 +97,29 @@ small {
   margin: 20px;
   padding: 10px;
   background-color: white;
+}
+.img-resp[alt] {
+  border-color: purple;
+}
+a:link {
+  color: violet;
+  text-decoration: none;
+}
+a:visited {
+  color: tomato;
+}
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+.wrap {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  border-radius: 30;
+}
+.img-resp:hover {
+  opacity: 0.7;
+  border-color: #999;
+  transition-duration: 0.3s;
 }
